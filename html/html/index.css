@@ -1,0 +1,111 @@
+body{
+    background-image: url("../background-home-desktop.jpg");
+}
+h1, nav, h2, a {
+    color: white;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+
+    
+}
+nav{
+    margin-left: 60%;
+    /* -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    padding: 1px ; */
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 0.5rem;
+    
+}
+a{
+
+    text-decoration: none;
+    
+    
+ } 
+.Home:hover{
+    border-bottom:2px solid  rgb(231, 228, 228);
+    border-radius: 2px;
+}
+.cre:hover{
+    border-bottom:2px solid  rgb(231, 228, 228);
+    border-radius: 2px;
+}
+.tech:hover{
+    border-bottom:2px solid rgb(231, 228, 228);
+    border-radius: 2px;
+}
+
+.des:hover{
+    border-bottom:2px solid rgb(231, 228, 228);
+    border-radius: 2px;
+}
+.destin{
+    text-align: center;
+    
+}
+.content{
+    position: relative;
+    top: 6rem;
+    margin-left: 15%;
+}
+.exp{
+
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    left: 70%;
+    bottom: 8rem;
+    width: 6.5rem;
+    padding: 3rem;
+
+    
+}
+.lorem, .tra{
+    color: rgb(231, 228, 228);
+}
+.lorem{
+    width: 30%;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+}
+.space{
+    font-weight:lighter;
+    font-family: serif;
+}
+.tra{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.pre{
+    color: black;
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+
+.nav{
+    padding: 5px 0 5px 30px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+@media (max-width: 1028px) {
+
+    body{
+    background-image: url("../background-home-tablet.jpg ");
+    }
+
+  }
+
